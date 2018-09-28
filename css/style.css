@@ -1,0 +1,65 @@
+@font-face {
+    font-family: dfds-light;
+    src: url(css/fonts/dfds-light.ttf);
+    font-family: dfds-bold;
+    src: url(css/fonts/dfds-bold.ttf)
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    font-size: 1em;
+    font-family: dfds-light,"Segoe UI";
+    background-color: #eaedee;
+}
+
+h1{  
+    color: #003251;
+    font-size: 1.69em;
+    font-family: dfds-bold;
+}
+
+h4{
+    background-color: rgba(189,13,46,0.65);
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 1em;
+    position: absolute;
+}
+
+p{
+    background-color: rgba(189,13,46,0.65);
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 1em; 
+}
+
+
+
+.logo{
+    height: 2.9em;
+    width: 8.5em;
+}
+
+header{
+    display: inline-flex;
+    position: relative;
+    background-color: #FFF;
+    width 100%;   
+}
+
+header>a>img{
+    width: 2em;
+    height: 2em;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+}
+
+article{
+    margin-left: 3em;
+    overflow-x: scroll;
+    flex-shrink: 0;
+}
